@@ -1,0 +1,37 @@
+{
+  "name": "product-management-ui",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "scripts": {
+    "build": "ng build --configuration production",
+    "start": "ng serve --proxy-config proxy.conf.json",
+    "test": "ng test --watch=false --browsers=ChromeHeadless"
+  },
+  "dependencies": {
+    "@angular/common": "12.2.17",
+    "@angular/compiler": "12.2.17",
+    "@angular/core": "12.2.17",
+    "@angular/forms": "12.2.17",
+    "@angular/platform-browser": "12.2.17",
+    "@angular/platform-browser-dynamic": "12.2.17",
+    "rxjs": "6.6.7",
+    "tslib": "2.3.1",
+    "zone.js": "0.11.8"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "12.2.18",
+    "@angular/cli": "12.2.18",
+    "@angular/compiler-cli": "12.2.17",
+    "@types/jasmine": "3.8.2",
+    "@types/node": "14.18.63",
+    "jasmine-core": "3.10.1",
+    "karma": "6.4.4",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-jasmine": "4.0.2",
+    "typescript": "4.3.5"
+  }
+}

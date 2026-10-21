@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.product.mapper.ProductMapper">
+    <resultMap id="product" type="com.example.product.model.Product">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="description" column="description"/>
+        <result property="price" column="price"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+    <sql id="columns">id, name, description, price, created_at, updated_at</sql>
+    <sql id="filters">
+        <where>
+            <if test="name != null and name != ''">
+                name ILIKE #{namePattern} ESCAPE '\'
+            </if>
+            <if test="price != null">AND price = #{price}</if>
+            <if test="minPrice != null">AND price &gt;= #{minPrice}</if>
+            <if test="maxPrice != null">AND price &lt;= #{maxPrice}</if>
+        </where>
+    </sql>
+    <select id="findById" resultMap="product">
+        SELECT <include refid="columns"/> FROM product WHERE id = #{id}
+    </select>
+    <select id="search" resultMap="product">
+        SELECT <include refid="columns"/> FROM product
+        <include refid="filters"/>
+        ORDER BY id DESC
+        LIMIT #{size} OFFSET #{offset}
+    </select>
+    <select id="count" resultType="long">
+        SELECT COUNT(*) FROM product <include refid="filters"/>
+    </select>
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        INSERT INTO product (name, description, price)
+        VALUES (#{name}, #{description}, #{price})
+    </insert>
+    <update id="update">
+        UPDATE product
+        SET name = #{name}, description = #{description}, price = #{price},
+            updated_at = CURRENT_TIMESTAMP
+        WHERE id = #{id}
+    </update>
+    <delete id="delete">DELETE FROM product WHERE id = #{id}</delete>
+</mapper>

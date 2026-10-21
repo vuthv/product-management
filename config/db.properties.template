@@ -1,0 +1,5 @@
+# Optional external configuration: copy to TOMCAT_BASE\conf\product-db.properties.
+# Environment variables DB_URL, DB_USERNAME, DB_PASSWORD also work.
+DB_URL=jdbc:postgresql://127.0.0.1:55432/productdb
+DB_USERNAME=product_app
+DB_PASSWORD=REPLACE_WITH_YOUR_LOCAL_PASSWORD
