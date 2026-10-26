@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/lib/sa-jdi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/lib/jconsole.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/lib/tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/lib/dt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

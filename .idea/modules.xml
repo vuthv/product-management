@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/lambda/BulkDataOperations/BulkDataOperations.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/lambda/BulkDataOperations/BulkDataOperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/annotations/DependencyChecker/PluginChecker/PluginChecker.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/annotations/DependencyChecker/PluginChecker/PluginChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/annotations/DependencyChecker/Plugins/Plugins.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/annotations/DependencyChecker/Plugins/Plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/annotations/Validator/Validator.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/annotations/Validator/Validator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/tomcat9/webapps/docs/docs.iml" filepath="$PROJECT_DIR$/.tools/tomcat9/webapps/docs/docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/tomcat9/webapps/examples/examples.iml" filepath="$PROJECT_DIR$/.tools/tomcat9/webapps/examples/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/forkjoin/forkjoin.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/forkjoin/forkjoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/jmx/jmx.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/jmx/jmx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/lambda/lambda.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/lambda/lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/nio/nio.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/nio/nio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-management.iml" filepath="$PROJECT_DIR$/product-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/scripting/scripting.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/scripting/scripting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.tools/jdk8/sample/try-with-resources/try-with-resources.iml" filepath="$PROJECT_DIR$/.tools/jdk8/sample/try-with-resources/try-with-resources.iml" />
+    </modules>
+  </component>
+</project>

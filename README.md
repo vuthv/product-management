@@ -70,7 +70,7 @@ Dừng cả Tomcat và PostgreSQL demo:
   chỉ có quyền cần thiết.
 - Nếu cổng `18080` hoặc `55432` đang có dịch vụ khác, script báo lỗi thay vì
   dừng hay ghi đè dịch vụ đó. Các cổng demo được cố định trong
-  [common.ps1](./scripts/common.ps1) và [server.xml](./config/server.xml).
+  [common.ps1](./scripts/common.ps1) và [server.xml](./src/config/server.xml).
 - `start-local.bat` copy WAR vào `.local\tomcat\webapps`, kiểm tra API thực sự
   trả HTTP 200 rồi mới báo `Ready`. Không đăng ký Windows service.
 - Khi sửa source: dừng demo, chạy lại `build.bat`, `test.bat`, rồi start.
@@ -82,20 +82,23 @@ Dừng cả Tomcat và PostgreSQL demo:
 ## Cấu trúc và luồng xử lý
 
 ```text
-src/com/example/product/
+src/main/java/com/example/product/
   controller/     REST mappings, log thao tác sau transaction thành công
   service/        validation, transaction và nghiệp vụ CRUD
   mapper/         interface MyBatis
   model/          Product, ProductInput, ProductFilter
   common/         ApiResponse, PageResult
   exception/      global advice và exception nghiệp vụ
-resources/
+src/resources/
   mappers/ProductMapper.xml
   log4j2.xml
-webapp/WEB-INF/
+src/webapp/WEB-INF/
   web.xml
   applicationContext.xml
   dispatcher-servlet.xml
+src/config/
+  server.xml
+  db.properties.template
 frontend/         Angular source, test, package-lock
 db/schema.sql
 scripts/          PowerShell build/setup/test/local/deploy
@@ -255,7 +258,7 @@ vào backend. Build production không dùng proxy.
 Tạo DB riêng và chạy [schema.sql](./db/schema.sql) một lần bằng `psql`; đây không
 phải migration idempotent. Không chạy lên DB WebPOS hay DB dùng chung.
 
-Copy [db.properties.template](./config/db.properties.template) thành
+Copy [db.properties.template](./src/config/db.properties.template) thành
 `TOMCAT_BASE\conf\product-db.properties` rồi sửa giá trị, hoặc truyền biến môi
 trường `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` vào process Tomcat. Không có mật khẩu
 mặc định/fallback. Không commit file cấu hình thật.

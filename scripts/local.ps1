@@ -80,7 +80,7 @@ New-Item "$TomcatBase\conf", "$TomcatBase\logs", "$TomcatBase\temp",
 Copy-Item "$TomcatHome\conf\web.xml" "$TomcatBase\conf\web.xml" -Force
 Copy-Item "$TomcatHome\conf\catalina.properties" "$TomcatBase\conf\catalina.properties" -Force
 Copy-Item "$TomcatHome\conf\logging.properties" "$TomcatBase\conf\logging.properties" -Force
-Copy-Item "$Root\config\server.xml" "$TomcatBase\conf\server.xml" -Force
+Copy-Item "$Root\src\config\server.xml" "$TomcatBase\conf\server.xml" -Force
 Copy-Item "$Root\dist\product-management.war" "$TomcatBase\webapps\product-management.war" -Force
 $env:DB_URL = "jdbc:postgresql://127.0.0.1:$PgPort/productdb"
 $env:DB_USERNAME = 'product_app'

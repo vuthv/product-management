@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/management-agent.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/resources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/jce.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/jfr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/charsets.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/jsse.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

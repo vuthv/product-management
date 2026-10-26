@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/jackson-datatype-jsr310-2.18.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-jcl-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/jackson-databind-2.18.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-beans-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-tx-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/HikariCP-4.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-web-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/postgresql-42.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/mybatis-spring-2.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/log4j-core-2.24.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/slf4j-api-2.0.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-core-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/log4j-api-2.24.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-aop-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-expression-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/jackson-annotations-2.18.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-context-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-jdbc-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/jackson-core-2.18.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/log4j-slf4j2-impl-2.24.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/spring-webmvc-5.3.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.build/war/WEB-INF/lib/mybatis-3.5.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

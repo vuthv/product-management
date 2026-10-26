@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="ext">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/sunjce_provider.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/jaccess.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/nashorn.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/sunmscapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/sunec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/cldrdata.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/dnsns.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/sunpkcs11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/access-bridge-64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/localedata.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.tools/jdk8/jre/lib/ext/zipfs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
